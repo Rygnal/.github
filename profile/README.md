@@ -32,11 +32,11 @@
 
 ---
 
-## What Rygnal builds
-Rygnal is an OS-level safety kernel for AI coding agents that intercepts and blocks destructive file changes in milliseconds.
+## $$\Large\color{#46e12a}\texttt{What Rygnal builds}$$
+
+Rygnal is an **OS-level safety kernel** for AI coding agents that intercepts and blocks destructive file changes in milliseconds.
 
 It mathematically protects your human-written code, allowing you to safely run autonomous agents unattended without risking your repository.
-
 
 
 | Capability | What it does |
@@ -56,8 +56,7 @@ It mathematically protects your human-written code, allowing you to safely run a
 → [`rygnal-core`](https://github.com/Rygnal/rygnal-core) — the main repository
 
 ---
-
-## Design Principle
+## $$\Large\color{#46e12a}\texttt{Design Principles}$$
 
 | Design Principle | Core Mechanism | Technical Implementation |
 | :--- | :--- | :--- |
