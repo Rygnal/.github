@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="profile/assets/rygnal-logo.svg"  />
-</p>
+
 
 <p align="center">
   $$\large\color{#46e12a}\textbf{\textsf{Runtime governance and security controls for AI-agent tool actions.}}$$
