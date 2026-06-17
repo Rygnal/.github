@@ -1,0 +1,42 @@
+# CODEOWNERS
+#
+# Controls who is automatically requested for review on pull requests.
+# GitHub matches rules top-to-bottom; last match wins per file.
+#
+# Syntax: <pattern>  <owner> [<owner> ...]
+# Owners can be GitHub teams (@org/team-name) or users (@username).
+#
+# ─────────────────────────────────────────────────────────────
+# IMPORTANT: Replace @Rygnal/owners with your actual team or username.
+#
+# If you are a solo maintainer, use:
+#   * @YOUR-GITHUB-USERNAME
+#
+# If you have a GitHub team named "owners" under the Rygnal org, use:
+#   * @Rygnal/owners
+# ─────────────────────────────────────────────────────────────
+
+
+# ── Default: everything requires owner review ───────────────
+* @Rygnal/owners
+
+
+# ── Organization profile ─────────────────────────────────────
+/profile/ @Rygnal/owners
+
+
+# ── Community health files ───────────────────────────────────
+/ISSUE_TEMPLATE/    @Rygnal/owners
+/PULL_REQUEST_TEMPLATE.md @Rygnal/owners
+/SECURITY.md        @Rygnal/owners
+/CONTRIBUTING.md    @Rygnal/owners
+/CODE_OF_CONDUCT.md @Rygnal/owners
+/CODEOWNERS         @Rygnal/owners
+
+
+# ── Future: add per-directory ownership as the org grows ─────
+#
+# Examples:
+#   /rygnal-core/src/policy/   @Rygnal/policy-reviewers
+#   /rygnal-core/src/risk/     @Rygnal/security-reviewers
+#   /rygnal-core/docs/         @Rygnal/docs-reviewers

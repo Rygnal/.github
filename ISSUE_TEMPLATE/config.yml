@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Hi-ben-the-coder/rygnal-core/security/advisories/new
+    about: Report a security vulnerability privately via GitHub Security Advisories.
+  - name: General discussion
+    url: https://github.com/orgs/Rygnal/discussions
+    about: Ask questions or start a discussion about Rygnal.
